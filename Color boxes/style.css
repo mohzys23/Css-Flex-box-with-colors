@@ -11,42 +11,33 @@ h1 {
 }
 
 .wrapper {
-  margin-top: 5%;
+  width: 100%;
 }
 
-.section, .section-2, .section-3 {
+.section  {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-basis: auto;
 }
 
-.section > div, .section-2 > div, .section-3 > div  {
-  width: 15%;
+.section > div {
+  width: 200px;
   height: 200px;
   border: 1px solid black;
-  margin-top: 0;
 }
 
-.box-1, .box-6, .box-11 {
-  margin-left: 5%;
-}
-
-.box-5, .box-10, .box-13 {
-  margin-right: 5%;
-}
-
-.box-1 {
-  background: red;
-}
-
-.box-2 {
+.green {
   background: green;
 }
 
-.box-3 {
+.red {
+  background: red;
+}
+.yellow {
   background: yellow;
 }
-
-.box-4 {
+.black {
   background: black;
 }
